@@ -58,7 +58,7 @@ Follow these instructions to set up and run the project locally.
 1.  **Clone the repository:**
 
     ```
-    git clone YOUR_GITHUB_REPO_URL_HERE
+    git clone https://github.com/m-arifin-ilham/User-Management-API
     cd user_management_api
     ```
 
@@ -157,11 +157,6 @@ This project is licensed under the MIT License.
 
 ---
 
-*Developed by [Muhammad Arifin Ilham](https://github.com/m-arifin-ilham/User-Management-API)* 
+*Developed by [Muhammad Arifin Ilham](https://www.linkedin.com/in/arifin-ilham-at-ska/)* 
 
 *Current Date: August 1, 2025*
-
-[![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/in/arifin-ilham-at-ska/)
-&nbsp;
-[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/m-arifin-ilham)
-
