@@ -3,6 +3,7 @@ from flask_bcrypt import Bcrypt
 import os
 from dotenv import load_dotenv
 from utils import jwt_required, admin_required  # Import decorators
+from flask_cors import CORS
 
 # Import database connection function
 from database import get_db_connection, init_db
@@ -17,6 +18,7 @@ from services import UserService, AuthService
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)  # Initialize CORS for the Flask app. This will allow all origins by default.
 bcrypt = Bcrypt(app)  # Initialize Bcrypt with the Flask app
 
 # Get secret keys from environment variables
